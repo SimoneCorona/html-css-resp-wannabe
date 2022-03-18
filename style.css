@@ -71,6 +71,15 @@ img {
 .clear {
   clear: both;
 }
+/* MEDIA QUERIS BONUS */
+@media screen and (max-width: 768px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
 
 /* MEDIA QUERIS*/
 @media screen and (max-width: 420px) {
@@ -78,13 +87,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-/* MEDIA QUERIS BONUS */
-@media screen and (max-width: 768px) {
-  .row{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
   }
 }
